@@ -135,8 +135,7 @@ function Register(name, age,phone) {
       divElement.classList.add('appended');
       divElement.innerHTML = `<h1>New Added Form</h1><h1>Full Name: ${this.fullName}</h1><h1>Age: ${this.age}</h1><h1>PhoneNo.: ${this.phone}</h1>`;
       divElement.style.backgroundColor ="gray";
-      divElement.style.width ="300px";
-      divElement.style.height="200px";
+     
       parentElement.appendChild(divElement);
   }
 }
