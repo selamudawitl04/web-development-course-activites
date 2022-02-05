@@ -70,24 +70,9 @@ function smm() {
    alert("form reseted successfuly");
  }
 
-
-  function mouseoverevent() {
-    alert("this shows articles");
-  }
-
   function mouseoutevent() {
     document.write("please hover your mouse over");
   }
-
-  function keydownevent() {
-    document.getElementById("phone");
-    alert("Pressed a key");
-  }
-
-  function focusevent() {
-    document.getElementById("fullname").style.backgroundColor = "aqua";
-  }  
-
 
 function mouseDown() {
   document.getElementById("myP").style.color = "red";
@@ -101,7 +86,7 @@ function myFunction() {
   var x = document.getElementById("fullname");
   x.value = x.value.toUpperCase();
 }
-
+// Swap the video element wiht audio element
 function swapImageWithVideo(){
 
   console.log('selamu dawit selemon');
